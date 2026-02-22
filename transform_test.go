@@ -9,7 +9,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/client-go/kubernetes/scheme"
 
-	. "github.com/manifestival/manifestival"
+	. "github.com/angelokurtis/manifestival"
 )
 
 func TestTransform(t *testing.T) {

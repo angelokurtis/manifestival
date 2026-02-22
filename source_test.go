@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/manifestival/manifestival"
+	. "github.com/angelokurtis/manifestival"
 )
 
 func TestFromReader(t *testing.T) {

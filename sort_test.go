@@ -3,7 +3,7 @@ package manifestival_test
 import (
 	"testing"
 
-	. "github.com/manifestival/manifestival"
+	. "github.com/angelokurtis/manifestival"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

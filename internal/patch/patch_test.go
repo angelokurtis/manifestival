@@ -8,7 +8,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/yaml"
 
-	. "github.com/manifestival/manifestival/internal/patch"
+	. "github.com/angelokurtis/manifestival/internal/patch"
 )
 
 type updateChangedTestCases struct {

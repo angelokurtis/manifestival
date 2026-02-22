@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"testing"
 
+	. "github.com/angelokurtis/manifestival"
+	"github.com/angelokurtis/manifestival/fake"
 	logr "github.com/go-logr/logr/testing"
-	. "github.com/manifestival/manifestival"
-	"github.com/manifestival/manifestival/fake"
 
 	appsv1 "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"

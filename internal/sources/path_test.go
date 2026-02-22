@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	. "github.com/manifestival/manifestival/internal/sources"
+	. "github.com/angelokurtis/manifestival/internal/sources"
 )
 
 func TestParsing(t *testing.T) {

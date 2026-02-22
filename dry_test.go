@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	. "github.com/manifestival/manifestival"
-	"github.com/manifestival/manifestival/fake"
+	. "github.com/angelokurtis/manifestival"
+	"github.com/angelokurtis/manifestival/fake"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 
