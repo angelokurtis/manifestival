@@ -1,6 +1,6 @@
 module github.com/angelokurtis/manifestival
 
-go 1.25.6
+go 1.25.7
 
 require (
 	github.com/evanphx/json-patch/v5 v5.9.11
