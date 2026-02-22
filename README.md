@@ -1,7 +1,7 @@
 # Manifestival
 
-[![Build Status](https://github.com/manifestival/manifestival/workflows/Build%20and%20Test/badge.svg)](https://github.com/manifestival/manifestival/actions)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/manifestival/manifestival)](https://pkg.go.dev/github.com/manifestival/manifestival)
+[![Build Status](https://github.com/angelokurtis/manifestival/workflows/Build%20and%20Test/badge.svg)](https://github.com/angelokurtis/manifestival/actions)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/angelokurtis/manifestival)](https://pkg.go.dev/github.com/angelokurtis/manifestival)
 
 Manifestival is a library for manipulating a set of unstructured
 Kubernetes resources. Essentially, it enables you to toss a "bag of
@@ -357,19 +357,19 @@ applying the manifest without modifying the live system. Each item in
 the returned list is valid content for the `kubectl patch` command.
 
 
-[Resources]: https://godoc.org/github.com/manifestival/manifestival#Manifest.Resources
-[Source]: https://godoc.org/github.com/manifestival/manifestival#Source
-[Manifestival]: https://godoc.org/github.com/manifestival/manifestival#Manifestival
-[Append]: https://godoc.org/github.com/manifestival/manifestival#Manifest.Append
-[Filter]: https://godoc.org/github.com/manifestival/manifestival#Manifest.Filter
-[Transform]: https://godoc.org/github.com/manifestival/manifestival#Manifest.Transform
-[Sort]: https://godoc.org/github.com/manifestival/manifestival#Manifest.Sort
-[Apply]: https://godoc.org/github.com/manifestival/manifestival#Manifest.Apply
-[Delete]: https://godoc.org/github.com/manifestival/manifestival#Manifest.Delete
-[DryRun]: https://godoc.org/github.com/manifestival/manifestival#Manifest.DryRun
-[Predicate]: https://godoc.org/github.com/manifestival/manifestival#Predicate
-[Client]: https://godoc.org/github.com/manifestival/manifestival#Client
-[Transformer]: https://godoc.org/github.com/manifestival/manifestival#Transformer
+[Resources]: https://godoc.org/github.com/angelokurtis/manifestival#Manifest.Resources
+[Source]: https://godoc.org/github.com/angelokurtis/manifestival#Source
+[Manifestival]: https://godoc.org/github.com/angelokurtis/manifestival#Manifestival
+[Append]: https://godoc.org/github.com/angelokurtis/manifestival#Manifest.Append
+[Filter]: https://godoc.org/github.com/angelokurtis/manifestival#Manifest.Filter
+[Transform]: https://godoc.org/github.com/angelokurtis/manifestival#Manifest.Transform
+[Sort]: https://godoc.org/github.com/angelokurtis/manifestival#Manifest.Sort
+[Apply]: https://godoc.org/github.com/angelokurtis/manifestival#Manifest.Apply
+[Delete]: https://godoc.org/github.com/angelokurtis/manifestival#Manifest.Delete
+[DryRun]: https://godoc.org/github.com/angelokurtis/manifestival#Manifest.DryRun
+[Predicate]: https://godoc.org/github.com/angelokurtis/manifestival#Predicate
+[Client]: https://godoc.org/github.com/angelokurtis/manifestival#Client
+[Transformer]: https://godoc.org/github.com/angelokurtis/manifestival#Transformer
 [logr.Logger]: https://github.com/go-logr/logr
-[fake]: https://godoc.org/github.com/manifestival/manifestival/fake
+[fake]: https://godoc.org/github.com/angelokurtis/manifestival/fake
 [strategic merge patch]: https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/#merge-patch-calculation
